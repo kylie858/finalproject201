@@ -1,0 +1,66 @@
+body {
+    background-color: blanchedalmond;
+    color: rgb(47, 47, 47);
+    font-family: 'Georgia', 'Times New Roman', 'Times', serif;
+}
+
+h1 {
+    color: white;
+    font-family: 'Papyrus', 'Hanuman', 'Georgia', 'Times New Roman', serif
+}
+
+h2, h3, h4, h5, h6 {
+    color: cadetblue;
+    font-family: 'Papyrus', 'Hanuman', 'Georgia', 'Times New Roman', serif;
+    text-decoration: underline;
+}
+
+/* Center the YouTube video */
+.video {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+}
+
+/* Styled buttons */
+.button-link {
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 10px 0;
+    background-color: cadetblue;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+    font-size: 1em;
+    transition: background-color 0.3s;
+}
+
+.button-link:hover {
+    background-color: #4f869a;
+    color: white;
+}
+
+/* Tableau container styling */
+.tableau-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.text-container {
+    border: 2px solid #333; /* Border around the text */
+    padding: 20px; /* Space between text and border */
+    text-align: left; /* Center the text inside the border */
+    margin: 20px auto; /* Center horizontally in its container */
+    max-width: 700px; /* Optional: Limit the width */
+    background-color: #fff; /* Background inside the border */
+    border-radius: 10px; /* Rounded corners (optional) */
+}
+.birthday-words{
+    text-align: center;
+}
